@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deab5e90-ded1-44b7-9627-ba884ae27a05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/refractor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/refractor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +53,7 @@
       <workItem from="1604992122570" duration="218000" />
       <workItem from="1604992357601" duration="10771000" />
       <workItem from="1605007794692" duration="2296000" />
-      <workItem from="1605040093281" duration="904000" />
+      <workItem from="1605040093281" duration="1245000" />
     </task>
     <servers />
   </component>
