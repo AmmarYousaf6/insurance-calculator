@@ -8,14 +8,14 @@ class InsuranceCompanyService implements InsuranceInterface
 {
     private $curl;
     /** @var string  */
-    private $insuranceUrl = "http://demo9084693.mockable.io/insurance";
+    const INSTANCE_URL = "http://demo9084693.mockable.io/insurance";
 
     /**
      * @return mixed
      */
     public function getQuote()
     {
-        $this->getCurlInitOptions( $this->insuranceUrl , ['month' => 3]);
+        $this->getCurlInitOptions( self::INSTANCE_URL , ['month' => 3]);
         try {
             $prices = json_decode(curl_exec($this->curl));
         }

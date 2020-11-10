@@ -7,12 +7,12 @@ use function PHPUnit\Framework\throwException;
 class BankService implements InsuranceInterface
 {
     /** @var string $bankUrl */
-    private $bankUrl = 'http://demo9084693.mockable.io/bank';
+    const BANK_URL = 'http://demo9084693.mockable.io/bank';
 
     public function getQuote()
     {
         try{
-            $prices = file_get_contents($this->bankUrl);
+            $prices = file_get_contents(self::BANK_URL);
         }
         catch(Exception $ex){
             throw new Exception(0,$ex);
