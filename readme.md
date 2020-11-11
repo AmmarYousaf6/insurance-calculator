@@ -9,6 +9,12 @@ Install the dependency manager for PHP [composer](https://getcomposer.org/).
 
 ## Usage
 
+After installation of composer, run the following commands in terminal 
+    
+    - composer install
+    
+    - composer dumpautoload
+
 Click on this link [Insurance-Calculator](http://localhost/insurance-calculator/App/Insurance.php).
 
 ## Questions
