@@ -15,7 +15,7 @@ After installation of composer, run the following commands in terminal
     
     - composer dumpautoload
 
-Click on this link [Insurance-Calculator](http://localhost/insurance-calculator/App/Insurance.php).
+    - run Insurance.php file in the browser or Click on this link [Insurance-Calculator](http://localhost/insurance-calculator/App/Insurance.php).
 
 ## Questions
 1. Would it be safe to go into production?
